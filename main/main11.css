@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.block{
+    width: 300px;
+    height: 85px;
+    margin: 100px auto;
+    /*padding-top: 7px ;
+    box-sizing: border-box;*/
+    text-align: center;
+    background: linear-gradient(90deg,  blue, #1bb41b, yellow, orange, orangered);
+    font-weight: bold;
+    color: lightgrey;
+}

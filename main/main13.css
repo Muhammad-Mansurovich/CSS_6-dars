@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.block{
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    margin: 50px auto;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+.block-item{
+    width: 600px;
+    height: 200px;
+    background-color: #3e3c3c;
+    box-shadow: -5px -5px 10px  rgb(11, 11, 222),
+     5px 5px 10px rgb(234, 234, 9),
+     5px 0px 10px 10px rgb(10, 226, 10),
+     -5px 0px 10px rgb(156, 12, 227),
+  0px 0px 10px 10px rgba(11, 11, 222,1);
+}

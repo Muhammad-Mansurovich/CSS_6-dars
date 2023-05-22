@@ -1,0 +1,19 @@
+.block-1{
+    width: 500px;
+    height: 150px;
+    margin: 20px auto;
+    background: linear-gradient(180deg, #d75f0c, #5badf5, #a2f693);
+    padding: 65px 100px;
+    box-sizing: border-box;
+    color: white;
+
+}
+.block-2 {
+    width: 500px;
+    height: 150px;
+    margin: 20px auto;
+    background: linear-gradient(90deg, orange, yellow, #1bb41b, blue, blueviolet);
+    padding: 65px 100px;
+    box-sizing: border-box;
+    color: white;
+}

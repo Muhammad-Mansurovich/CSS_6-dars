@@ -1,0 +1,21 @@
+body{
+
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.Round1{
+    width: 430px;
+    height: 400px;
+    margin: 50px auto;
+    background: radial-gradient(#08a708,white, #0000b1);
+    text-align: center;
+
+    vertical-align: center;
+    padding: 150px 50px;
+    box-sizing: border-box;
+}
+.text{
+    margin-top: -25px;
+}

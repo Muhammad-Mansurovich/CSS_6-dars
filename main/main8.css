@@ -1,0 +1,61 @@
+
+.block{
+    width: 2000px;
+    height: 300px;
+    margin: 300px auto;
+    background-color: whitesmoke;
+
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    color:  #7de29e;
+    background-color: #7de29e;
+    margin: 300px 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    transition: background-color 0.3s;
+    animation-name: loader;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1000;
+    animation-direction: alternate-reverse;
+}
+@keyframes loader {
+    0%{
+        transform:  translateX(0) rotate(0) ;
+        background-color: #7de29e;
+    }
+    25%{
+        transform:  translateX(400px) rotate(180deg);
+        background-color: #f64f9f;
+    }
+    50%{
+        transform: translateX(800px) rotate(360deg);
+        background-color: #3e98f5;
+    }
+    75%{
+        transform: translateX(400px) rotate(180deg);
+        background-color: #f64f9f;
+    }
+    100%{
+        transform:  translateX(0) rotate(0);
+        background-color: #7de29e;
+    }
+
+
+
+
+
+}
+
+
+/*.square:hover{
+    transform: translateY(-100px)  translateX(400px) rotate(360deg) translateY(100px);
+    background-color: #f64f9f;
+}*/
+
+
+
+
